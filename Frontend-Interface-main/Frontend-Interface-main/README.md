@@ -8,7 +8,7 @@ So far I have added a Login and a Signup page and I am planning to connect the i
 
 # Try it for yourself
 
-Here is how you can run the interface on your computer in Visual Studio:
+## Here is how you can run the interface on your computer in Visual Studio:
 
 ### Step 1 - Install Node.js
 
@@ -20,10 +20,10 @@ Also ensure that you have installed **npm**.
 
 You will require the following extentions inside Visual Studio:
 
--HTML CSS Support
--Live Server
--JavaScript (ES6) code snippets
--Code Runner
+* HTML CSS Support
+* Live Server
+* JavaScript (ES6) code snippets
+* Code Runner
 
 You can install these by clicking the "Extentions" tab on the sidebar and seraching them up
 
@@ -38,5 +38,11 @@ Inside visual Studio, click on `File --> Add Folder to Wokspace`, select the fil
 ### Step 5 - Run it
 
 Inside of Visual Studio, simply click `Run --> Run Without Debugging` and then select your browser of choice on which to run the program.
+
+
+==========================================================================================================================================================================
+
+
+Click this link for a video demonstration on how to set it all up: [(https://www.youtube.com/watch?v=5deeCvboSos)]
 
 
