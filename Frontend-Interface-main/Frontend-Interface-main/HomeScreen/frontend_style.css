@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    background-color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Common styles for content containers */
+#Content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+#Content h2 {
+    font-size: 50px;
+}
+
+#Content p {
+    font-size: 30px;
+}
+
+/* Title Bar Styles */
+#Title {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: top 5s ease;
+}
+
+#Title.hidden {
+    top: -100%;
+}
+
+/* Background Image Styles */
+#BackgroundImageSection {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+#BackgroundImageSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Latest Stock Section Styles */
+#LatestStockSection {
+    background-color: #E0E0E0;
+    padding: 20px;
+    position: relative;
+}
+
+#ScrollBarContainer {
+    height: 20px;
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+#HorizontalScrollBar {
+    width: 100%;
+    height: 100%;
+    background-color: #888;
+    cursor: pointer;
+}
+
+#ScrollBarHandle {
+    width: 50%;
+    height: 100%;
+    background-color: #333;
+    position: relative;
+    left: 0;
+    top: 0;
+    cursor: grab;
+}
+
+#ImageGalleryContainer {
+    width: 95vw;
+    overflow: hidden;
+}
+
+#ImageGallery {
+    white-space: nowrap;
+    font-size: 0;
+}
+
+#ImageGallery img {
+    display: inline-block;
+    width: 500px;
+    margin-right: 10px;
+}
+
+/* About Us Section Styles */
+#AboutUsSection {
+    background-color: #D0D0D0;
+    padding: 20px;
+    display: flex;
+    margin: 0 5%;
+}
+
+.about-us-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-us-image img {
+    width: 600px;
+}
+
+#AboutUsButton {
+    background: linear-gradient(90deg, rgba(161, 193, 246, 1) 0%, rgba(249, 219, 254, 1) 100%);
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 600px;
+    height: 150px;
+    font-size: 40px;
+    margin-top: auto;
+}
+
+.about-us-content h2 {
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+/* Logo Styles */
+#Logo {
+    width: 13%;
+    height: auto;
+}
+
+/* Sidebar Styles */
+#OpenSidebar,
+#CloseButton,
+#OpenButton {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin: 5px;
+    z-index: 3;
+}
+
+#OpenButton:hover,
+#CloseButton:hover {
+    border: 2px solid rgb(36, 36, 36);
+    border-radius: 6px;
+    background: rgb(180, 180, 180);
+    z-index: 3;
+}
+
+#Sidebar {
+    display: none;
+    background-color: white;
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    border-right: 5px solid #DCDCDC;
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    height: 210px;
+    overflow: auto;
+    z-index: 3;
+}
+
+.sidebar-link {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #DCDCDC;
+    z-index: 1;
+}
+
+/* Cookies Notification Styles */
+#Cookies {
+    text-align: center;
+    bottom: 5%;
+    position: fixed;
+    width: 50%;
+    left: 25%;
+    border: 4px solid;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #d1d0d0;
+    z-index: 1;
+}
+
+/* Delete Cookies Box Styles */
+#DeleteCookies {
+    text-align: center;
+    bottom: 5%;
+    position: fixed;
+    width: 15%;
+    right: 5%;
+    border: 4px solid;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #d1d0d0;
+    z-index: 1;
+}
+
+/* Show Delete Cookies Box Button Styles */
+#showDel {
+    display: none;
+    text-align: center;
+    bottom: 5%;
+    position: fixed;
+    width: 10%;
+    right: 2.5%;
+    border: 4px solid;
+    border-radius: 12px;
+    background-color: #d1d0d0;
+    z-index: 1;
+}
+
+/* General Button Styles */
+button {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin: 5px;
+}
+
+button:hover {
+    border: 2px solid rgb(36, 36, 36);
+    border-radius: 6px;
+    background: rgb(180, 180, 180);
+}
+
+/* Fade Transition Styles */
+.transitionFade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.transitionFade.active {
+    opacity: 1;
+}
