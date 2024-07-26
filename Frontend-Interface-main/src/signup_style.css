@@ -47,7 +47,7 @@
 #fnameInput {
     display: block;
     font-family: sans-serif;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
@@ -88,6 +88,14 @@
     font-size: 20px;
 }
 
+#passIcon {
+    position: absolute;
+    object-fit: contain;
+    max-width: 8%;
+    top: -97px;
+    margin-left: 75%;
+}
+
 #passRepeat {
     display: block;
     font-family: sans-serif;
@@ -125,4 +133,11 @@
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#BackgroundImageSection output{
+    margin-top: 10%;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 5px;
 }
