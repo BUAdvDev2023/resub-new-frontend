@@ -1,10 +1,6 @@
 # Repository Overview
 
-This repository contains customer front end for the business written in HTML, CSS and JavaScript. This is an extention of the "frontend interface" repository created by @Gastritus. Everything in the HomeScreen folder was developed by them with only a few minor tweaks made by me as of now. 
-
-# Progress and plans for the module
-
-So far I have added a Login and a Signup page and I am planning to connect the interface to an SQL server where the user data will be stored
+This repository contains customer front end for the business written in HTML, CSS and JavaScript. The backend is in PHP. This is an extention of the "frontend interface" repository created by @Gastritus. Everything in the HomeScreen folder was developed by them with only a few minor tweaks made by me.
 
 # Try it for yourself
 
@@ -20,29 +16,25 @@ Also ensure that you have installed **npm**.
 
 You will require the following extentions inside Visual Studio:
 
-* HTML CSS Support
-* Live Server
-* JavaScript (ES6) code snippets
-* Code Runner
+- HTML CSS Support
+- Live Server
+- JavaScript (ES6) code snippets
+- Code Runner
 
 You can install these by clicking the "Extentions" tab on the sidebar and seraching them up
 
-### Step 3 - Download and extract files 
+### Step 3 - Download the project
 
-Simply download the files from this repository by clicking on `Code --> Donwload Zip` and extract the files in your local directory
+Clone the repository to your computer and open inside Visual Studio.
 
-### Step 4 - Create workspace and add files
+### Step 4 - Run it
 
-Inside visual Studio, click on `File --> Add Folder to Wokspace`, select the file where the files from this repository are stored and click `Add`
+Make sure you have the latest version of Docker installed. Type in the following command in the command line:
 
-### Step 5 - Run it
+`docker compose up --build`
 
-Inside of Visual Studio, simply click `Run --> Run Without Debugging` and then select your browser of choice on which to run the program.
+Once the command is finished running, open up your browser of choice and type in `localhost:8080/frontend_home.php`
 
+You can access the database by searching for `localhost:8000` in your browser. The username is _root_ and the password is _strongpass_.
 
-==========================================================================================================================================================================
-
-
-Click this link for a video demonstration on how to set it all up: [(https://www.youtube.com/watch?v=5deeCvboSos)]
-
-
+To stop the program, open the console and press _CTRL + C_ and then type `docker compose down`
