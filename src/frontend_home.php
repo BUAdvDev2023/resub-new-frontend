@@ -42,12 +42,12 @@
         </div>
         <div id="ImageGalleryContainer">
             <div id="ImageGallery">
-                <img src="/Images/Gallery/Shoe.png" alt="Image 1">
-                <img src="/Images/Gallery/Shoe.png" alt="Image 2">
-                <img src="/Images/Gallery/Shoe.png" alt="Image 3">
-                <img src="/Images/Gallery/Shoe.png" alt="Image 4">
-                <img src="/Images/Gallery/Shoe.png" alt="Image 5">
-                <img src="/Images/Gallery/Shoe.png" alt="Image 6">
+                <a href="shoe.php"><img src="/Images/Gallery/Shoe.png" alt="Image 1"></a>
+                <a href="shoe.php"><img src="/Images/Gallery/Shoe.png" alt="Image 2"></a>
+                <a href="shoe.php"><img src="/Images/Gallery/Shoe.png" alt="Image 3"></a>
+                <a href="shoe.php"><img src="/Images/Gallery/Shoe.png" alt="Image 4"></a>
+                <a href="shoe.php"><img src="/Images/Gallery/Shoe.png" alt="Image 5"></a>
+                <a href="shoe.php"><img src="/Images/Gallery/Shoe.png" alt="Image 6"></a>
             </div>
         </div>
     </div>

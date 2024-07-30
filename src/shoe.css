@@ -1,0 +1,38 @@
+#background {
+    background-color: #E0E0E0;
+    display: flex;
+}
+
+#sideImages{
+    margin-top: 24px;
+}
+
+#sideImg {
+    border-radius: 10%;
+    width:100px;
+    margin-right: 10px;
+}
+
+#shoeImg {
+    border-radius: 4%;
+    width: 550px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#text {
+    font-family: sans-serif;
+}
+
+#sizeSelection {
+    display: flex;
+}
+
+#sizeLabel{
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+#box {
+    height:10px;
+}
